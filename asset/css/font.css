@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'calangoreviregular';
+    src: url('asset/fonts/calangorevi-webfont.woff2') format('woff2'),
+         url('asset/fonts/calangorevi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,400i,700,800i,900');

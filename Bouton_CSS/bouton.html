@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bouton Cut The Cook </title>
+
+    <script type="text/javascript">
+        function envoiDonnée() {
+            var p = document.getElementById("Envoi")
+            p.onclick = showAlert;
+        };
+
+        function showAlert(){
+            alert("Donnée envoyé");
+        }
+    </script>
+</head>
+
+<body onload="envoiDonnée();">
+    
+<style>
+
+    * {
+        /* box-sizing: border-box; */
+        outline: none;
+    }
+    .btn{ 
+        position:relative
+    }
+   .button1{
+       font-family: "Arial Black", Helvetica, sans-serif;
+       font-size: 2em;
+       height: 13px;
+       display: inline-block;
+       overflow: hidden;
+       background: #C01718;
+       padding: 0.2em 0.8em;
+       color:#fff
+   }
+
+    .version2{ 
+        position:absolute;
+        top: 26px; 
+        left: 0;}
+
+   .version2 span{ 
+       position:relative;
+       top:-27px; 
+       display: block; }
+
+   .btn:hover .version2{    
+        top: 27px;
+        left: 3px;  
+        transition: all .5s ; 
+    }
+
+    .btn:hover {
+        cursor: pointer;
+    }
+
+  
+</style>
+
+
+
+<div id="Envoi" class='btn'  >
+    <div  class="button1">CUT THE COOK !</div>
+    <div class="button1 version2"><span>CUT THE COOK !</span></div>
+</div>
+
+    
+<style>
+    /* .Cut{
+        position: relative;
+        color: transparent;
+        top: 200px;
+        left: 20px;;
+        font-family: "Arial Black", Helvetica, sans-serif;
+        font-size: 2em;
+        
+    }
+    .Cut::after{
+        content: "CUT THE COOK !";
+        color: black;
+        position:absolute;
+        overflow: hidden;
+        top: 50%; 
+        left: 0;
+        transition: 0.5 all;
+     
+    }
+    .Cut:hover{
+ 
+        cursor: pointer;
+       
+    }
+    .Cut:before{
+          content: "CUT THE COOK !"
+        position:absolute;
+        top: 0%;
+        color: black;
+        cursor: pointer;
+        height: 50%;
+        overflow: hidden;
+    } */
+
+
+.decal{
+  font-family: "Arial Black", Helvetica, sans-serif;
+  position:relative;
+  /* border: 2px solid transparent; */
+  top: 200px;
+  width:40rem;
+  font-size:4rem;
+  line-height:6rem;
+  height:7rem;
+  background-color:#C01718;
+  transition:all 1s;
+}
+ 
+.decal::before{
+  content:'CUT THE COOK !';
+  position:absolute;
+  left:0px;
+  right:0;
+  color:#fff;
+  height:6rem;
+  background-color:#C01718;
+  overflow:hidden;
+  transition:all .5s;
+}
+ 
+.decal::after{
+  content:'CUT THE COOK !';
+  position:absolute;
+  margin-top:-3rem;
+  top:3rem;
+  left:0;
+  right:0;
+  color:#fff;
+  height:3rem;
+  background-color:#C01718;
+  overflow:hidden;
+}
+ 
+.decal:hover::before{
+ left:0.5rem;
+ /* border: 10px solid #fff; */
+}
+</style>
+
+
+   <div class="decal"></div>
+
+
+
+
+</body>
+</html>

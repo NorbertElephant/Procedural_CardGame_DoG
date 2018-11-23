@@ -1,0 +1,18 @@
+
+<?xml version="1.0" standalone="no"?>
+
+
+<svg width="800" height="800" version="1.1" xml:space="preserve"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Modele</title>
+
+<defs>
+<path id="bellePetiteCourbe" d="m0`0 c150`-50 100`200 200`200 s0`-100 100`-200" /> 
+</defs>
+
+<polygon points="50`50 50`200 100`250 200`200 200`100 200`100 200`50" style="stroke: #0795A2; fill: #FFAE00;">
+        <animateColor attributeName="fill" attributeType="CSS" values="#FFAE00; #CE18D5; #FF3401; #3366FF" keyTimes="0; 0.2; 0.6; 1" begin="0s" dur="10s" fill="freeze" />
+        </polygon>
+
+</svg>

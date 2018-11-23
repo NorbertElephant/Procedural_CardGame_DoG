@@ -1,0 +1,48 @@
+html{
+    font-size:62.5%;
+    padding :0;
+    margin: 0;
+}
+p{
+    padding :0;
+    margin: 0;
+}
+q{
+    padding :0;
+    margin: 0;
+}
+h2 {
+    padding :0;
+    margin: 0; 
+}
+/** Hero Jeu Pourri */ 
+
+
+
+.Hero{
+    width: 236px;
+    height: 273px;
+}
+.Hero img{
+    width :100%;
+}
+.flex-center{
+    display: flex;
+    justify-content:center;
+}
+.PV{
+    width: 236px;
+    height: 273px;
+    color :#fff;
+    font-size: 75px;
+    background: url('../image_jeu/pictocoeur.png') no-repeat;
+    background-size:cover;
+    text-align:center;
+    align-self:center;
+}
+.red {
+    background :#8B0000;
+}
+.content-btn{
+    padding-top:10px;
+}
